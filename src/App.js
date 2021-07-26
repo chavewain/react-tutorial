@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet';
+import Helmet, { HelmetProvider } from 'react-helmet-async';
 
 import Setup from './tutorial/1-useState/setup/1-error-example'
 import Final from './tutorial/1-useState/final/1-error-example'
